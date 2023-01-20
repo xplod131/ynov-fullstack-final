@@ -1,0 +1,31 @@
+.container {
+    height: 72px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.startElement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 0;
+    height: 100%;
+}
+
+.startElement>p {
+    color: black;
+    font-family: 'Bayon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39.1476px;
+    margin-left: 5px;
+    line-height: 71px;
+}
+
+.endElement {
+    right: 10px;
+    position: absolute;
+}

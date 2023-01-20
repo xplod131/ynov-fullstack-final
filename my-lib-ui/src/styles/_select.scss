@@ -1,0 +1,19 @@
+.my-lib-ui-form-field {
+    position: relative;
+
+    .my-lib-ui-select {
+        padding: 18px 12px 18px 16px;
+        height: 50px;
+        width: 100%;
+        background-color: #F9F9F9;
+        border: 0px;
+        color: #918E8E;
+    }
+
+    .my-lib-form-label-select {
+        top: 5px;
+        left: 15px;
+        font-size: 10px;
+        position: absolute;
+    }
+}

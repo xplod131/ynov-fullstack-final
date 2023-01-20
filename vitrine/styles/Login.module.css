@@ -1,0 +1,95 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    color: #C00000;
+    padding-right: 5px;
+}
+
+.backButton {
+    display: inline-flex;
+    width: 64px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 16px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.loginText {
+    padding: 9px;
+    color: #C00000;
+    font-family: Roboto;
+    width: 127px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.containerForm {
+    padding: 16px;
+}
+
+.cardLogin {
+    width: 350px;
+    background: #FFFFFF;
+}
+
+.spaceItems {
+    margin-bottom: 20px;
+}
+
+.item {
+    width: 10em;
+}
+
+.inputCard {
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.labelInput {
+    /* texte/champs ou légende */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    /* gris/ moyen (noir 50%) */
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.inputElement {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 12px 18px 16px;
+    gap: 8px;
+    width: 100%;
+}
+

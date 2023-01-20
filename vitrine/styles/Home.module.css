@@ -1,0 +1,179 @@
+.container {
+  width: 100%;
+  height: 424px;
+  position: relative;
+}
+
+.img {
+  max-width: 100%;
+  min-width: 30%;
+  width: 100%;
+}
+
+.imageCars {
+  display: flex;
+  justify-content: center;
+}
+
+.containerText {
+  height: 104px;
+  width: 60%;
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  border-bottom: 1px solid #C00000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Text {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.arrow {
+  color: #C00000;
+}
+
+.imageCars {
+
+  display: flex;
+  justify-content: center;
+}
+
+.containerText {
+  height: 104px;
+  width: 795.92px;
+  position: absolute;
+  bottom: 0px;
+
+  background-color: white;
+  border-bottom: 1px solid #C00000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Text {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.arrow {
+  color: #C00000;
+}
+
+.containerInput {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+
+
+}
+
+.buttonFlex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonFlexChild {
+  height: 50%;
+  width: 50%;
+}
+
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collageItem {
+  flex: 0 0 50%;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.fullwidth {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+
+}
+
+.containerInputBox {
+  background-color: white;
+  height: 500px;
+  width: 800px;
+}
+
+.titleInscription {
+  color: #C00000;
+}
+
+.columnContainer2 {
+  position: relative;
+  width: 50%
+}
+
+.element {
+  padding: 20px;
+}
+
+.column2Input {
+  margin-top: 205px;
+}
+
+.inscriptionButton {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 25px;
+}
+
+.columnContainer1 {
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+
+  .containerInput {
+    padding: 20px;
+  }
+
+  .collage {
+    flex-direction: column;
+  }
+
+  .collageItem {
+    width: 100%;
+  }
+
+  .buttonFlex {
+    justify-content: flex-start;
+  }
+
+  .buttonFlexChild {
+    width: 100%;
+  }
+
+  .Text {
+    font-size: 14px;
+
+  }
+
+  .containerText {
+    width: 90%;
+    height: 250px;
+    right: 0px;
+  }
+
+  .img {
+    object-fit: cover;
+  }
+
+
+}

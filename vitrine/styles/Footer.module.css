@@ -1,0 +1,47 @@
+.footer {
+    position: absolute;
+    bottom: -350px;
+}
+
+.container {
+    width: 100vw;
+    height: 144px;
+    background-color: black;
+
+}
+
+.containerLinks {
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.containerLinks>a {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+
+.containerDroit {
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerDroit>p {
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        bottom: -550px;
+    }
+
+    .containerLinks {
+        margin-left: 20px;
+    }
+
+}

@@ -1,0 +1,17 @@
+.container-my-lib-ui-checkbox {
+    display: flex;
+
+    legend,
+    label {
+        color: black;
+    }
+
+
+    .container-my-lib-ui-checkbox>legend {
+        margin-left: 20px;
+    }
+}
+
+input[type='checkbox'] {
+  accent-color: black;
+}

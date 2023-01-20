@@ -1,0 +1,56 @@
+.containerTab {
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+.title {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.containerNavigationBackOffice>button {
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.containerNavigationBackOffice>button:hover {
+    border-bottom: 2px solid #C00000;
+
+}
+
+.containerNavigationBackOffice {
+    margin: 20px;
+}
+
+.containerTable>table {
+    width: 100%;
+}
+
+.containerTable>table>tbody>tr>td,
+.containerTable>table>tr>th {
+    text-align: center;
+    font-family: 'Abel', 'sans-serif';
+    border-bottom: 2px solid #F9F9F9;
+    padding: 10px;
+
+}
+
+.tdBrand {
+    font-weight: bold;
+}

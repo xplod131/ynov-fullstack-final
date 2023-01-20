@@ -1,0 +1,12 @@
+.container-select-radio {
+    display: flex;
+
+    legend,
+    label {
+        color: black;
+    }
+}
+
+input[type='radio'] {
+  accent-color: black;
+}

@@ -1,0 +1,20 @@
+.confirmContainer {
+    padding: 10px;
+    background-color: #F9F9F9;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageBoxApple {
+    width: 180px;
+    height: 140px;
+}
+
+.imageBoxGooglePlay {
+    width: 200px;
+    height: 200px;
+}

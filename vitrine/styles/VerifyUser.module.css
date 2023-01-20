@@ -1,0 +1,47 @@
+.containerPage {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerModalVerifyUser {
+    background-color: #FFFFFF;
+    height: 52%;
+    width: 30%;
+}
+
+.categoryInfoUser {
+    color: #C00000;
+    font-weight: 400;
+
+}
+
+.title {
+    color: #C00000;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.firstBlock {
+    margin-left: 8px;
+}
+
+.endblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.actionButton {
+    width: 95%;
+    margin-bottom: 8px;
+}
+
+.cancel {
+    border-bottom: 1px solid black;
+}

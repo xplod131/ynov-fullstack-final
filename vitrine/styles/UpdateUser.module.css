@@ -1,0 +1,59 @@
+.containerPage {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerModalUpdateUser {
+    background-color: #FFFFFF;
+    height: 60%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryInfoUser {
+    color: #C00000;
+    font-weight: 400;
+
+}
+
+.title {
+    color: #C00000;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+.actionButton {
+
+    width: 95%;
+    margin-bottom: 8px;
+}
+
+.cancel {
+    cursor: pointer;
+    text-align: center;
+}
+
+.endblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input {
+    margin-bottom: 12px;
+    width: 95%;
+}
+
+.button {
+    margin-bottom: 12px;
+}
