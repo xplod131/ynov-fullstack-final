@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62b6f53a-de4b-4aa9-b6cf-458da7a9e14e" name="Changes" comment="" />
+    <list default="true" id="62b6f53a-de4b-4aa9-b6cf-458da7a9e14e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/ynov-fullstack-final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vitrine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vitrine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vitrine/components/BackOffice/UserTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../vitrine/components/BackOffice/UserTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vitrine/components/RegisterPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../vitrine/components/RegisterPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vitrine/components/VerifyUserPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../vitrine/components/VerifyUserPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vitrine/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../vitrine/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vitrine/pages/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../vitrine/pages/login.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -23,13 +40,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/nicolas/Documents/YNOV/Mastère 1/Web Fullstack/TP-FINAL/my-lib-ui",
+    "last_opened_file_path": "/home/nicolas/Documents/YNOV/Mastère 1/Web Fullstack/ynov-fullstack-final/my-lib-ui",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/home/nicolas/Documents/YNOV/Mastère 1/Web Fullstack/TP-FINAL/my-lib-ui/node_modules/typescript/lib",
+    "ts.external.directory.path": "/home/nicolas/Documents/YNOV/Mastère 1/Web Fullstack/ynov-fullstack-final/my-lib-ui/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673521560287</updated>
       <workItem from="1673521561398" duration="3318000" />
+      <workItem from="1674807455010" duration="890000" />
     </task>
     <servers />
   </component>

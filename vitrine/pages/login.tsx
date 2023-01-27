@@ -29,7 +29,7 @@ const Login: React.FC = () => {
 
         event.preventDefault();
 
-        axios.post('http://localhost:9000/api/.user/login', {
+        axios.post('http://localhost:8000/api/.user/login', {
             username: email,
             password
         }).then((response) => {

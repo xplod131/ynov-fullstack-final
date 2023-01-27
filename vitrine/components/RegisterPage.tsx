@@ -23,7 +23,7 @@ export default function RegisterPage() {
     const handleSubmit = (event: { preventDefault: () => void; }) => {
         event.preventDefault();
 
-        axios.post('http://localhost:9000/api/.user/inscription',
+        axios.post('http://localhost:8000/api/.user/inscription',
             {
                 email,
                 firstName,

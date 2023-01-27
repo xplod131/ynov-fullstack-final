@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340cbf51-d1e8-4454-b579-16a0aca7175b" name="Changes" comment="" />
+    <list default="true" id="340cbf51-d1e8-4454-b579-16a0aca7175b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/ynov-fullstack-final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-lib-ui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-lib-ui/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-lib-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-lib-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-lib-ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../my-lib-ui/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BackOffice/UserTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BackOffice/UserTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/RegisterPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/RegisterPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/VerifyUserPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/VerifyUserPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -27,21 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nicolas/Documents/YNOV/Mastère 1/Web Fullstack/TP-FINAL/my-lib-ui&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/nicolas/Documents/YNOV/Mastère 1/Web Fullstack/TP-FINAL/vitrine/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/nicolas/Documents/YNOV/Mastère 1/Web Fullstack",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/nicolas/Documents/YNOV/Mastère 1/Web Fullstack/ynov-fullstack-final/vitrine/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/components/BackOffice" />
@@ -61,6 +78,7 @@
       <updated>1673520019465</updated>
       <workItem from="1673520020636" duration="14032000" />
       <workItem from="1673597817556" duration="3661000" />
+      <workItem from="1674807297058" duration="1922000" />
     </task>
     <servers />
   </component>

@@ -28,7 +28,7 @@ const VerifyUserPage: React.FC = () => {
 
     useEffect(() => {
 
-        axios.get('http://localhost:9000/api/.user/future-users/' + id, {
+        axios.get('http://localhost:8000/api/.user/future-users/' + id, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`
             }
@@ -44,7 +44,7 @@ const VerifyUserPage: React.FC = () => {
     }, [router])
 
     const verifyUser = () => {
-        axios.post('http://localhost:9000/api/.user/validate-user/' + id, {}, {
+        axios.post('http://localhost:8000/api/.user/validate-user/' + id, {}, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`
             }

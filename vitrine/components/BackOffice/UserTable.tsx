@@ -16,7 +16,7 @@ const UserTable: React.FC = () => {
 
     useEffect(() => {
 
-        axios.get('http://localhost:9000/api/.user/future-users', {
+        axios.get('http://localhost:8000/api/.user/future-users', {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`
             }
@@ -24,7 +24,7 @@ const UserTable: React.FC = () => {
             setFutureUsers(response.data);
         })
 
-        axios.get('http://localhost:9000/api/.user/users', {
+        axios.get('http://localhost:8000/api/.user/users', {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`
             }
