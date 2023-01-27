@@ -92,6 +92,14 @@ module.exports = (app: Express) => {
         });
     });
 
+    app.get("/api/.car", (req: Request, res: Response) => {
+        axios.get(process.env.API_URL_CAR, req.body).then((onfulfilled) => {
+            res.send(onfulfilled.data);
+        }).catch(e => {
+            res.send(e.response.data);
+        });
+    });
+
     app.post("/api/.car/add", (req: Request, res: Response) => {
         axios.post(process.env.API_URL_CAR + "/add", req.body).then((onfulfilled) => {
             res.send(onfulfilled.data);
