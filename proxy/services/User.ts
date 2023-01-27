@@ -92,4 +92,20 @@ module.exports = (app: Express) => {
         });
     });
 
+    app.post("/api/.car/add", (req: Request, res: Response) => {
+        axios.post(process.env.API_URL_CAR + "/add", req.body).then((onfulfilled) => {
+            res.send(onfulfilled.data);
+        }).catch(e => {
+            res.send(e.response.data);
+        });
+    });
+
+    app.post("/api/.car/delete/:id", (req: Request, res: Response) => {
+        axios.delete(process.env.API_URL_CAR + "/delete/" + req.params.id).then((onfulfilled) => {
+            res.send(onfulfilled.data);
+        }).catch(e => {
+            res.send(e.response.data);
+        });
+    });
+
 }
