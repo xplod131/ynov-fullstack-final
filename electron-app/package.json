@@ -1,0 +1,19 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "electron project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.1.0"
+  },
+  "dependencies": {
+    "electron-context-menu": "^3.6.1",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
