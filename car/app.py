@@ -21,16 +21,16 @@ def index():
     for car in cars:
         car_data = {'id': car.id, 'name': car.name, 'price': car.price, 'image': car.image}
         cars_data.append(car_data)
-    return jsonify(cars_data)
+    return jsonify({'status': 'success', 'car': (cars_data)}), 200
 
 
 @app.route('/add', methods=['POST'])
 def add():
     # Ajoute une nouvelle voiture
-
-    name = request.form['name']
-    price = request.form['price']
-    image = request.form['image']
+    data = request.get_json()
+    name = data['name']
+    price = data['price']
+    image = data['image']
     new_car = CarModel(name, price, image)
     db.session.add(new_car)
     db.session.commit()

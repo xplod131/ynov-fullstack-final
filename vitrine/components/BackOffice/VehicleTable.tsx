@@ -1,67 +1,80 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import styles from "../../styles/BackOffice.module.css";
 import {ButtonComponent, ButtonTabComponent} from "my-lib-ui";
 import Image from "next/image";
 import validate from "../../img/validate.png";
 import wait from "../../img/wait.png";
+import axios from "axios";
+import {useRouter} from "next/router";
 
 const VehicleTable: React.FC = () => {
 
-    interface IVehicle {
-        brand: string,
-        model: string,
-        action: boolean
+    const [vehicles, setVehicles] = useState([]);
+
+    const router = useRouter();
+
+    const handleAddCar = () => {
+        router.push('/add-car');
     }
 
-    const vehicles: IVehicle[] = [
-        {
-            brand: "dacia",
-            model: "duster",
-            action: true
-
-        },
-        {
-            brand: "renault",
-            model: "clio",
-            action: false
-
-        }
-    ]
-
-
-    const verifyUser = () => {
-        console.log('user verified')
+    const handleDeleteCar = (id: number) => {
+        axios.post('http://localhost:8000/api/.car/delete/' + id,{}, {
+            headers: {
+                'Authorization': `Bearer ${localStorage.getItem('token')}`
+            }
+        }).then(() => {
+            actualizeVehicles();
+        });
     }
 
-    const editUser = () => {
-        console.log("edit user")
+    const actualizeVehicles = () => {
+        axios.get('http://localhost:8000/api/.car', {
+            headers: {
+                'Authorization': `Bearer ${localStorage.getItem('token')}`
+            }
+        }).then((response) => {
+            setVehicles(response.data.car);
+        })
     }
 
+    useEffect(() => {
+        actualizeVehicles();
+    }, []);
 
     return (
-        <div className={styles.containerTable}>
-            <table>
-                <thead>
-                <tr>
-                    <th>Marque</th>
-                    <th>Modele</th>
-                    <th>Action</th>
-                </tr>
-                </thead>
-                <tbody>
-                {vehicles.map((vehicle, key) => {
-                    return (
-                        <tr key={key}>
-                            <td>{vehicle.brand}</td>
-                            <td className={styles.tdBrand}>{vehicle.model}</td>
-                            <td><ButtonComponent label={vehicle.action ? "modele" : "vérifier"}
-                                                 onClick={vehicle.action ? editUser : verifyUser}/></td>
-                        </tr>
-                    )
-                })}
-                </tbody>
-            </table>
-        </div>
+        <>
+            <ButtonComponent label={"Ajouter un nouveau véhicule"}
+                             onClick={handleAddCar}/>
+
+            <div className={styles.containerTable}>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Marque</th>
+                        <th>Prix</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {vehicles.map((vehicle, key) => {
+                        return (
+                            <tr key={key}>
+                                <td><img src={vehicle.image} alt={"Vehicle image"} width={50} height={50} /></td>
+                                <td className={styles.tdBrand}>{vehicle.name}</td>
+                                <td className={styles.tdBrand}>{vehicle.price}</td>
+                                <td><ButtonComponent label={"Supprimer"}
+                                                     onClick={() => {
+                                                         handleDeleteCar(vehicle.id)
+                                                     }}/></td>
+                            </tr>
+                        )
+                    })}
+                    </tbody>
+                </table>
+            </div>
+        </>
+
     )
 }
 
