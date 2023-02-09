@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item-container>h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-container>img {
+    width: 400px;
+}
+
+.item-container>p {
+    margin-bottom: 25px;
+}
+
+.item-container,
+.header {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#return {
+    border-bottom: 1px solid black;
+
+}
+
+#return:hover {
+    cursor: pointer;
+}

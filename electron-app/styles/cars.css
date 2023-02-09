@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 15px;
+}
+
+.header>p {
+    margin-top: 5px;
+}
+
+#container-data {
+    /*  width: 100vw; */
+
+    margin-top: 20px;
+    width: 100%;
+
+
+}
+
+.item-container>img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-info>p {
+    color: #C00000;
+}
